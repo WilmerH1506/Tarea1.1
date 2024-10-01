@@ -8,8 +8,8 @@
 
 class Rectangulo:
     def __init__(self,base,altura):
-        self.base = float(base)
-        self.altura = float(altura)
+        self.base = base
+        self.altura = altura
 
     def area(self):
         return self.base * self.altura
