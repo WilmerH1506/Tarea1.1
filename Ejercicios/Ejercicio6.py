@@ -22,7 +22,5 @@ def fibonacci(n):
 
     return fibonacci
 
-print(fibonacci(1))
-print(fibonacci(2))
-print(fibonacci(5))
-print(fibonacci(10))
+n = int(input("Ingrese el valor de n: "))
+print(fibonacci(n))
