@@ -17,5 +17,5 @@ class Libro:
     def mostrar_info(self):
         return print(f"El libro {self.Titulo} con Autor {self.Autor} fue publicado \n en {self.anio_publicacion} y tiene {self.numero_paginas} paginas")
         
-mi_libro = Libro("Verity: La sombra de un enganio","Colleen Hoover",2018,368)
+mi_libro = Libro("Verity: La sombra de un engaño","Colleen Hoover",2018,368)
 mi_libro.mostrar_info()

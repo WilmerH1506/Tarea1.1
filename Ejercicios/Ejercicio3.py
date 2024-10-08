@@ -17,11 +17,12 @@ class CuentaBancaria:
     
     def depositar(self,cantidad):
         self.saldo += cantidad
-        print("Depósito realizado exitosamente")
+        print(f"Se depositaron {cantidad} exitosamente")
     
     def retirar(self,cantidad):
         if(cantidad < self.saldo):
             self.saldo -= cantidad
+            print(f'Se retiraron {cantidad} de la cuenta')
         else:
             print("La cantidad a retirar excede el monto de la cuenta") 
     

@@ -5,7 +5,7 @@
 #3. Utiliza la función para contar las vocales.
 #4. Muestre el número total de vocales.
 
-vocales = ["a","e","i","o","u"]
+vocales = ["a","e","i","o","u","A","E","I","O","U"]
 
 def contar_vocales(frase):
     contador_vocales = 0

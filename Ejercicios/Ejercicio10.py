@@ -19,7 +19,7 @@ while True:
     Longitud = int(input("Ingrese la longitud de la contraseña:"))
     print()
     if Longitud < 8:
-        print("La contraseña debe tener al menos 8 caracteres. ")
+        print("La contraseña debe tener al menos 8 caracteres. Intente de nuevo.")
     else:
         generar_contrasena(Longitud)
         break

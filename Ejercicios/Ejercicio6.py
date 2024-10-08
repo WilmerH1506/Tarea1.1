@@ -22,5 +22,5 @@ def fibonacci(n):
 
     return fibonacci
 
-n = int(input("Ingrese el valor de n: "))
+n = int(input("Ingrese la cantidad de valores de fibonacci que desea ver: "))
 print(fibonacci(n))
